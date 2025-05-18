@@ -9,7 +9,7 @@ Before you begin, ensure you have the following installed:
 - [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/downloads)
 - [Node.js](https://nodejs.org/) (for backend)
-- [MongoDB](https://www.mongodb.com/try/download/community) (for database)
+
 
 ## Project Setup
 
@@ -24,30 +24,10 @@ Before you begin, ensure you have the following installed:
    flutter pub get
    ```
 
-3. **Backend Setup**
-   - Navigate to the backend directory
-   - Install Node.js dependencies:
-     ```bash
-     npm install
-     ```
-   - Create a `.env` file in the backend directory with the following variables:
-     ```
-     PORT=3000
-     MONGODB_URI=mongodb://localhost:27017/smart_home
-     JWT_SECRET=your_jwt_secret
-     ```
-
-4. **Database Setup**
-   - Start MongoDB service
-   - Create a database named `smart_home`
 
 ## Running the Application
 
-1. **Start the Backend Server**
-   ```bash
-   cd backend
-   npm start
-   ```
+
 
 2. **Run the Flutter Application**
    - For Android:
@@ -135,9 +115,5 @@ The application communicates with the following API endpoints:
 ## Support
 
 For any issues or questions, please contact:
-- Email: [your-email@example.com]
-- Phone: [your-phone-number]
+- Email: [patilmaheshwar2004@gmail.com]
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
